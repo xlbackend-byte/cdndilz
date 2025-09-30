@@ -1,11 +1,9 @@
-import { connect } from "cloudflare:sockets";
-
 // Variables
-const rootDomain = "cdndilz.pages.dev/sub"; // Ganti dengan domain utama kalian
-const serviceName = "ae6dd0de"; // Ganti dengan nama workers kalian
+const rootDomain = "cdndilz.pages.dev/sub";
+const serviceName = "ae6dd0de";
 const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = ""; // Ganti dengan email yang kalian gunakan
-const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const accountID = "44e6775adc2a138a70a853c6a8e4b387";
 const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "https://raw.githubusercontent.com/mrsyd-my/proxycf/refs/heads/main/ProxyList.txt";
