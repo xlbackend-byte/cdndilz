@@ -1,8 +1,8 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "fandom.eu.org"; // Ganti dengan domain utama kalian
-const serviceName = "proxy"; // Ganti dengan nama workers kalian
+const rootDomain = "cdndilz.pages.dev/sub"; // Ganti dengan domain utama kalian
+const serviceName = "ae6dd0de"; // Ganti dengan nama workers kalian
 const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = ""; // Ganti dengan email yang kalian gunakan
 const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
